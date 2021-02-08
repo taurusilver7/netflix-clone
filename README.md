@@ -1,3 +1,26 @@
+# Netflix Clone
+
+> A react-redux based movie watching application with material-ui stying & stripe powered for payment.
+
+[Netflix logo](https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png)
+[avatar icon](https://st2.depositphotos.com/1006318/5909/v/950/depositphotos_59095529-stock-illustration-profile-icon-male-avatar.jpg)
+[netflix-banner](https://torranceca.files.wordpress.com/2019/10/netflix.jpg)
+[netflix ad-1](https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg)
+[netflix-ad-2](https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png)
+[netflix ad-3](https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
