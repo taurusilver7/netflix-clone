@@ -9,15 +9,8 @@
 [netflix-ad-2](https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png)
 [netflix ad-3](https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png)
 
-
-
-
-
-
-
-
-
-
+[login logo-1](https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png)
+[login- bkg-2](https://assets.nflxext.com/ffe/siteui/vlv3/538717c0-f271-40e9-a99e-b07f9c521322/f9b1cff8-a8f6-4cdf-9e2c-dd2db524f710/DE-en-20210201-popsignuptwoweeks-perspective_alpha_website_medium.jpg)
 
 
 
