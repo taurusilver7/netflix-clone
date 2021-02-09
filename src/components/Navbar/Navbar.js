@@ -1,30 +1,34 @@
 import React, { useEffect, useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-    const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
+  const history = useHistory();
 
-    const transitionNavbar = () => {
-        if(window.scrollY > 100) {
-            setShow(true);
-        } else setShow(false)
-    }
+  const transitionNavbar = () => {
+    if (window.scrollY > 100) {
+      setShow(true);
+    } else setShow(false);
+  };
 
-    useEffect(() => {
-        window.addEventListener("scroll", transitionNavbar);
-        return () => window.removeEventListener("scroll", transitionNavbar);
-    }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", transitionNavbar);
+    return () => window.removeEventListener("scroll", transitionNavbar);
+  }, []);
 
   return (
     <div className={`navbar ${show && "navbar__black"}`}>
       <div className="navbar__contents">
         <img
+          onClick={() => history.push("/")}
           className="navbar__logo"
           src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
           alt="logo"
         />
 
         <img
+          onClick={() => history.push("/profile")}
           className="navbar__avatar"
           src="https://st2.depositphotos.com/1006318/5909/v/950/depositphotos_59095529-stock-illustration-profile-icon-male-avatar.jpg"
           alt="avatar"
