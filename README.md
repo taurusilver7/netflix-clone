@@ -12,7 +12,40 @@
 [login logo-1](https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png)
 [login- bkg-2](https://assets.nflxext.com/ffe/siteui/vlv3/538717c0-f271-40e9-a99e-b07f9c521322/f9b1cff8-a8f6-4cdf-9e2c-dd2db524f710/DE-en-20210201-popsignuptwoweeks-perspective_alpha_website_medium.jpg)
 
+## Initializing react app & Setup firebase.
 
+- The react application is created with react-redux started template using the command<br /> `npx create-react-app <app-name> --template redux`
+
+* clean the template, public directory, src, app & features directory. refactor the counterSlive as appSlice with user & selectedImg states. create cameraReducer with chat features as actions..
+* refactor the store in app directory to create appReducer & cameraReducer.
+
+* Initialize the cloud firestore, initiate the store, create storage modify their rules to allow read & write w/o timestamp. Even though it is not production recommended, it is quite suitable for developement.
+* Setup the web-app configuration for the project & copy the firebase SDK snippet config data-object to firebase.js file in the project.<br />
+* Install firebase as a dependency,<br /> initiate the firebaseApp with firebase(),<br /> a databse with firestore(),<br /> auth with firebase.auth().
+
+## Dependencies
+
+- @material-ui/core
+- @material-ui/icons
+- @reduxjs/toolkit
+- firebase
+- react
+- react-countdown-circle-timer
+- react-dom
+- react-redux
+- react-router-dom
+- react-scripts
+
+## Compnents
+
+- HomeScreen (contains navbar, banner & movie Row)
+- Login page
+- SignUp Page
+- User Profile page.
+
+* Add stripe checkout funtionality to process the monthly subscription for the user.
+* Use firebase + Stripe extension.(just release a month ago).
+* integrate the firebase real-time database (firestore) to keep track of user's subscription plans.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 

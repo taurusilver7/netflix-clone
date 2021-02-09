@@ -6,9 +6,12 @@ import Navbar from "../Navbar/Navbar";
 import { useSelector } from "react-redux";
 import { selectUser } from "../../features/userSlice";
 import { auth } from "../../firebase";
+import { useHistory } from "react-router-dom";
 
 const Profile = () => {
   const user = useSelector(selectUser);
+  const history = useHistory();
+
   return (
     <div className="profile">
       <Navbar />
@@ -29,21 +32,21 @@ const Profile = () => {
                   Netflix Standard <br />
                   <span>1080p</span>
                 </p>
-                <button>Subsrcibe</button>
+                <button onClick={() => history.push("/")}>Subsrcibe</button>
               </div>
               <div className="profile__plan">
                 <p>
                   Netflix Basics <br />
                   <span>480p</span>
                 </p>
-                <button>Subsrcibe</button>
+                <button onClick={() => history.push("/")}>Subsrcibe</button>
               </div>
               <div className="profile__plan">
                 <p>
                   Netflix Premium <br />
                   <span>4k+HDR</span>
                 </p>
-                <button>Subsrcibe</button>
+                <button onClick={() => history.push("/")}>Subsrcibe</button>
               </div>
               <button
                 onClick={() => auth.signOut()}
